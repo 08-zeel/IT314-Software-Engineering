@@ -1,0 +1,19 @@
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Functional Requirements</a>
+    </li>
+    <li>
+      <a href="#getting-started">Non-Functional Requirements</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Scope</a></li>
+    <li><a href="#roadmap">Features</a></li>
+    <li><a href="#contributing">Non-Functional Aspects</a></li>
+  </ol>
+</details>
