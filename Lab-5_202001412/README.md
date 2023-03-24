@@ -1,4 +1,4 @@
-# Lab-5_202001181
+# Lab-5_202001412
 
 **Software Engineering**
 
@@ -13,61 +13,76 @@ Here, i am using pylint tool for python
 
 https://github.com/TheAlgorithms/Python
 
-![image](https://user-images.githubusercontent.com/83700057/225568552-f3f77595-e116-47b4-aa08-88ed2159cb90.png)
+Cloning and installing require tools
+
+![cloning and installing](https://user-images.githubusercontent.com/75678316/227487902-9d18cb0a-69d0-4ac7-956b-b0714483a2b9.png)
 
 
-Cloing and installing require tools
+
 
 
 **Performing static Analysis and error understanding**
 
 
-(1) https://github.com/rishabh1005/Algorithmic-Toolbox/blob/master/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.py
+(1) Code Analysed : https://github.com/TheAlgorithms/Python/blob/master/divide_and_conquer/mergesort.py
 
 Tool Output:
-![image](https://user-images.githubusercontent.com/83700057/225569242-0e5c4a47-d744-420b-b578-350b68ef3c9e.png)
+![1st code](https://user-images.githubusercontent.com/75678316/227483738-d1f4ec0a-11a7-4323-9fb3-d4b134649b4a.png)
 
-(2) https://github.com/rishabh1005/Algorithmic-Toolbox/blob/master/week6_dynamic_programming2/1_maximum_amount_of_gold/knapsack.py
 
-Tool Output:
-
-![image](https://user-images.githubusercontent.com/83700057/225570057-bf8db995-b250-4538-a904-b682c2211600.png)
-
-(3) https://github.com/rishabh1005/Algorithmic-Toolbox/blob/master/week6_dynamic_programming2/2_partitioning_souvenirs/partition3.py
+(2) Code Analysed : https://github.com/TheAlgorithms/Python/blob/master/divide_and_conquer/convex_hull.py
 
 Tool Output:
 
-![image](https://user-images.githubusercontent.com/83700057/225570809-91ee6530-5346-49e0-a6a4-0efd0b96cb46.png)
+![2nd code](https://user-images.githubusercontent.com/75678316/227484065-b9b6a08c-962e-491e-8145-0272f75a4f69.png)
 
-(4) https://github.com/rishabh1005/Algorithmic-Toolbox/blob/master/week5_dynamic_programming1/4_longest_common_subsequence_of_two_sequences/lcs2.py
 
-Tool Output:
-
-![image](https://user-images.githubusercontent.com/83700057/225571548-9c6afada-36ec-439e-b552-2e05eb527f74.png)
-
-(5) https://github.com/rishabh1005/Algorithmic-Toolbox/blob/master/week5_dynamic_programming1/3_edit_distance/edit_distance.py
+(3) Code Analysed : https://github.com/TheAlgorithms/Python/blob/master/divide_and_conquer/inversions.py
 
 Tool Output:
 
-![image](https://user-images.githubusercontent.com/83700057/225571891-61226b93-7411-4e7a-8d77-2b641848d4a1.png)
+![3rd code](https://user-images.githubusercontent.com/75678316/227484693-9ffea8ef-9c93-4879-b4b0-d41c94bb1d9a.png)
 
+(4) Code Analysed : https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/viterbi.py
+
+Tool Output:
+
+![4th code](https://user-images.githubusercontent.com/75678316/227485156-a6726598-5f2b-4c8f-a051-d4995dd22b6b.png)
+
+(5) Code Analysed :  https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/rod_cutting.py
+
+Tool Output:
+
+![5th code](https://user-images.githubusercontent.com/75678316/227485393-d7278107-6658-4d87-9161-46cc58d450d9.png)
+
+(6) Code Analysed :  https://github.com/TheAlgorithms/Python/blob/master/neural_network/convolution_neural_network.py
+
+Tool Output:
+
+![6th code](https://user-images.githubusercontent.com/75678316/227485692-227608ba-aa86-48a9-a32d-43eeeec523d0.png)
 
 
 
 **Understanding Errors:**
 
-        (1) C0303: Trailing whitespace (trailing-whitespace): Used when there is whitespace between the end of a line and the newline.
+        (1) C0114: Missing module docstring (missing-module-docstring)
 
-        (2) C0114/C0ll6: Missing module docstring/function docstring:   This indicates that neither the modules nor the functions have a docstring defined. The docstring functions as a kind of comment or text explanation that the compiler ignores but which aids in explaining the function's or module's intended use to others. Writing docstrings is a wise move.
+        (2) C0103: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
 
-        (3) W0622: Redefining built-in 'input' (redefined-builtin): Used when a built-in is overridden by a variable or method.
+        (3) R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+        
+        (4)  R1714: Consider merging these comparisons with "in" to 'k not in (i, j)' (consider-using-in)
 
-        (4) C0103:The variable doesn't match the snake_case naming style. The defined variable is not named using the snake_case convention, as indicated by this error.
+        (5) R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+        
+        (6) C0116: Missing function or method docstring (missing-function-docstring)
 
-        (5) W0621: Redifining name from outerscope: This mistake indicates that a global variable with the same name as a local variable. By doing this, the global version of the variable is hidden and the local scope is changed to use the local version of the variable.
+        (7) R0914: Too many local variables (19/15) (too-many-locals)
 
-        (6) C0305: Trailing newlines (trailing-newlines): This error tells that there are trailing blank lines in a file.
-
-        (7) R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return): This occurs when an else line is added following a "return" statement that is never actually executed.
-
-        (8) C0321: More than one statement on a single line: This error tells that there is an on statement are found on the same line.
+        (8) R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+        
+        (9) R0902: Too many instance attributes (14/7) (too-many-instance-attributes)
+        
+        (10) W0612: Unused variable 'data_focus1' (unused-variable)
+        
+        (11) W0105: String statement has no effect (pointless-string-statement)
