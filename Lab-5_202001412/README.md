@@ -6,11 +6,12 @@
     Student ID: 202001412
     Lab: 05
 
-**Github tool and selected repositry**
+**Github tool and selected repository**
 
 
 Here, i am using pylint tool for python
 
+Repository that is used :
 https://github.com/TheAlgorithms/Python
 
 Cloning and installing require tools
@@ -71,7 +72,7 @@ Tool Output:
 
         (3) R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
         
-        (4)  R1714: Consider merging these comparisons with "in" to 'k not in (i, j)' (consider-using-in)
+        (4) R1714: Consider merging these comparisons with "in" to 'k not in (i, j)' (consider-using-in)
 
         (5) R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
         
