@@ -1,6 +1,6 @@
-# Lab-5_202001412
+# $$\mathcal{\textcolor{darkgreen}{IT314-Software-Engineering-Lab 5}}$$
 
-**Software Engineering**
+
 
     Name: Zeel Bhanderi
     Student ID: 202001412
@@ -9,10 +9,10 @@
 **Github tool and selected repository**
 
 
-Here, i am using pylint tool for python
+--> Here, i am using pylint tool for python
 
-Repository that is used :
-https://github.com/TheAlgorithms/Python
+--> Repository that is used :
+    https://github.com/TheAlgorithms/Python
 
 Cloning and installing require tools
 
